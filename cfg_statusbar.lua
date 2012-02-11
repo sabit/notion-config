@@ -8,7 +8,7 @@ dopath("statusbar_fname")
 mod_statusbar.create {
     -- First screen, bottom left corner
     screen=0,
-    pos='bl',
+    pos='tl',
     -- Set this to true if you want a full-width statusbar
     fullsize=true,
     -- Swallow systray windows
@@ -72,10 +72,10 @@ mod_statusbar.launch_statusd{
     },
 
     -- Weather
-    weather={
-        update_interval=5*60*1000,
-        station=CYKF,
-    },
+    -- weather={
+    --     update_interval=5*60*1000,
+    --     station=CYKF,
+    -- },
 
     --df={
     --    fslist = { "/", "/disk2" },

@@ -16,8 +16,8 @@
 -- Set default modifiers. Alt should usually be mapped to Mod1 on
 -- XFree86-based systems. The flying window keys are probably Mod3
 -- or Mod4; see the output of 'xmodmap'.
---META="Mod1+"
---ALTMETA=""
+META="Mod4+"
+ALTMETA="Mod1+"
 
 -- Terminal emulator
 --XTERM="xterm"
@@ -72,14 +72,14 @@ dopath("cfg_notioncore")
 dopath("cfg_kludges")
 dopath("cfg_layouts")
 dopath("cfg_statusbar")
-dopath("cfg_derek")
---dopath("mod_dock")
+-- dopath("cfg_derek")
+-- dopath("mod_dock")
 
 -- Load configuration of the Ion 'core'. Most bindings are here.
---dopath("cfg_notioncore")
+-- dopath("cfg_notioncore")
 
 -- Load some kludges to make apps behave better.
---dopath("cfg_kludges")
+-- dopath("cfg_kludges")
 
 -- Define some layouts. 
 --dopath("cfg_layouts")
