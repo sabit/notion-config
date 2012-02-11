@@ -20,7 +20,7 @@ META="Mod4+"
 ALTMETA="Mod1+"
 
 -- Terminal emulator
---XTERM="xterm"
+XTERM="gnome-terminal"
 
 -- Some basic settings
 ioncore.set{
